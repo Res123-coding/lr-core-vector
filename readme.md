@@ -87,5 +87,5 @@ READ of size 4 at 0x... thread T0
 - 将`data=NULL`,`data=end`,`capacity=size`的情况单独讨论。
 - 对于其他情况修改内存并重新调整指针位置。
 
-*clear
+* clear
 - 不动容量只用把尾指针移到首指针的位置。
